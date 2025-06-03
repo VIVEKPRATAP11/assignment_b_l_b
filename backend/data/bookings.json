@@ -1,0 +1,62 @@
+[
+  {
+    "boatId": "2",
+    "boatName": "Sea Breeze",
+    "location": "San Diego, California",
+    "startDate": "2025-06-12",
+    "endDate": "2025-06-17",
+    "totalPrice": 2250,
+    "guestName": "vivek",
+    "email": "vivekpratapvp11@gmail.com",
+    "phone": "87365555",
+    "guests": 7,
+    "specialRequests": "",
+    "id": "1748976602662",
+    "createdAt": "2025-06-03T18:50:02.662Z"
+  },
+  {
+    "boatId": "1",
+    "boatName": "Ocean Majesty",
+    "location": "Miami, Florida",
+    "startDate": "2025-06-05",
+    "endDate": "2025-06-10",
+    "totalPrice": 6000,
+    "guestName": "vivek",
+    "email": "admin@hirexai.com",
+    "phone": "87365555",
+    "guests": 1,
+    "specialRequests": "",
+    "id": "1748977376393",
+    "createdAt": "2025-06-03T19:02:56.393Z"
+  },
+  {
+    "boatId": "8",
+    "boatName": "Lightning Bolt",
+    "location": "Miami Beach, Florida",
+    "startDate": "2025-06-10",
+    "endDate": "2025-06-18",
+    "totalPrice": 3360,
+    "guestName": "vivek",
+    "email": "vivekpratapvp11@gmail.com",
+    "phone": "87365555",
+    "guests": 8,
+    "specialRequests": "",
+    "id": "1748982119981",
+    "createdAt": "2025-06-03T20:21:59.981Z"
+  },
+  {
+    "boatId": "3",
+    "boatName": "Paradise Explorer",
+    "location": "Key West, Florida",
+    "startDate": "2025-06-05",
+    "endDate": "2025-06-09",
+    "totalPrice": 3200,
+    "guestName": "vivek",
+    "email": "admin@hirexai.com",
+    "phone": "87365555",
+    "guests": 1,
+    "specialRequests": "",
+    "id": "1748982705338",
+    "createdAt": "2025-06-03T20:31:45.338Z"
+  }
+]

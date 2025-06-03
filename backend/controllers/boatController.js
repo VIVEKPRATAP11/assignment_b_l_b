@@ -1,0 +1,41 @@
+const { getBoats, findBoatById } = require("../models/boatModel")
+
+/**
+ * Get all boats
+ * @param {Request} req - Express request
+ * @param {Response} res - Express response
+ * @param {NextFunction} next - Express next function
+ */
+async function getAllBoats(req, res, next) {
+  try {
+    const boats = await getBoats()
+    res.json(boats)
+  } catch (error) {
+    next(error)
+  }
+}
+
+/**
+ * Get boat by ID
+ * @param {Request} req - Express request
+ * @param {Response} res - Express response
+ * @param {NextFunction} next - Express next function
+ */
+async function getBoatById(req, res, next) {
+  try {
+    const boat = await findBoatById(req.params.id)
+
+    if (!boat) {
+      return res.status(404).json({ error: "Boat not found" })
+    }
+
+    res.json(boat)
+  } catch (error) {
+    next(error)
+  }
+}
+
+module.exports = {
+  getAllBoats,
+  getBoatById,
+}
