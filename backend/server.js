@@ -3,7 +3,7 @@ const cors = require("cors")
 const config = require("./config")
 const { setupRoutes } = require("./routes")
 const { errorHandler, notFoundHandler } = require("./middleware/errorHandlers")
-const { initializeData } = require("./models/dataInitializer")
+const { initializeData } = require("./services/dataInitializer")
 
 const app = express()
 const PORT = process.env.PORT || 5000

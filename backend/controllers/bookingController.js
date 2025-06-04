@@ -1,5 +1,5 @@
-const { getBookings, findBookingById, addBooking } = require("../models/bookingModel")
-const { findBoatById } = require("../models/boatModel")
+const { getBookings, findBookingById, addBooking } = require("../services/bookingModel")
+const { findBoatById } = require("../services/boatModel")
 
 /**
  * Get all bookings

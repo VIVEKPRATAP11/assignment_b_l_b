@@ -28,5 +28,35 @@
     "specialRequests": "",
     "id": "1748977376393",
     "createdAt": "2025-06-03T19:02:56.393Z"
+  },
+  {
+    "boatId": "2",
+    "boatName": "Sea Breeze",
+    "location": "San Diego, California",
+    "startDate": "2025-06-06",
+    "endDate": "2025-06-09",
+    "totalPrice": 1350,
+    "guestName": "jbj",
+    "email": "vgv2@gmail.com",
+    "phone": "88889899",
+    "guests": 1,
+    "specialRequests": "ggujgj",
+    "id": "1749065365119",
+    "createdAt": "2025-06-04T19:29:25.119Z"
+  },
+  {
+    "boatId": "1",
+    "boatName": "Ocean Majesty",
+    "location": "Miami, Florida",
+    "startDate": "2025-06-06",
+    "endDate": "2025-06-09",
+    "totalPrice": 3600,
+    "guestName": "nipun",
+    "email": "nipun@gmail.com",
+    "phone": "7897897878",
+    "guests": 9,
+    "specialRequests": "",
+    "id": "1749066177459",
+    "createdAt": "2025-06-04T19:42:57.459Z"
   }
 ]

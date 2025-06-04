@@ -1,4 +1,4 @@
-const { getBoats, findBoatById } = require("../models/boatModel")
+const { getBoats, findBoatById } = require("../services/boatModel")
 
 /**
  * Get all boats
