@@ -3,9 +3,6 @@ const { findBoatById } = require("../models/boatModel")
 
 /**
  * Get all bookings
- * @param {Request} req - Express request
- * @param {Response} res - Express response
- * @param {NextFunction} next - Express next function
  */
 async function getAllBookings(req, res, next) {
   try {
@@ -20,10 +17,8 @@ async function getAllBookings(req, res, next) {
 
 /**
  * Get booking by ID
- * @param {Request} req - Express request
- * @param {Response} res - Express response
- * @param {NextFunction} next - Express next function
  */
+
 async function getBookingById(req, res, next) {
   try {
     const booking = await findBookingById(req.params.id)
@@ -40,10 +35,8 @@ async function getBookingById(req, res, next) {
 
 /**
  * Create a new booking
- * @param {Request} req - Express request
- * @param {Response} res - Express response
- * @param {NextFunction} next - Express next function
  */
+
 async function createBooking(req, res, next) {
   try {
     // Validate required fields

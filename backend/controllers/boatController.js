@@ -2,9 +2,6 @@ const { getBoats, findBoatById } = require("../models/boatModel")
 
 /**
  * Get all boats
- * @param {Request} req - Express request
- * @param {Response} res - Express response
- * @param {NextFunction} next - Express next function
  */
 async function getAllBoats(req, res, next) {
   try {
@@ -17,9 +14,6 @@ async function getAllBoats(req, res, next) {
 
 /**
  * Get boat by ID
- * @param {Request} req - Express request
- * @param {Response} res - Express response
- * @param {NextFunction} next - Express next function
  */
 async function getBoatById(req, res, next) {
   try {

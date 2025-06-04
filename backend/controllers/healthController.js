@@ -1,8 +1,7 @@
 /**
  * Get API health status
- * @param {Request} req - Express request
- * @param {Response} res - Express response
  */
+
 function getHealthStatus(req, res) {
   res.json({
     status: "OK",
